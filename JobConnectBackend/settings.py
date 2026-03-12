@@ -78,6 +78,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'JobConnectBackend.urls'
+AUTH_USER_MODEL = 'authentication.User'
 
 # ─── REST Framework ────────────────────────────────────────────
 REST_FRAMEWORK = {
@@ -128,6 +129,7 @@ REST_AUTH = {
     'USE_JWT': True,
     'JWT_AUTH_COOKIE': None, 
     'JWT_AUTH_REFRESH_COOKIE': None,
+    'REGISTER_SERIALIZER': 'authentication.serializers.RegisterSerializer',
 }
 
 TEMPLATES = [

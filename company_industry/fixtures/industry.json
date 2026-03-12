@@ -1,0 +1,162 @@
+[
+    {
+        "model": "company_industry.industry",
+        "pk": 1,
+        "fields": {
+            "name": "Information Technology",
+            "code": "IT"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 2,
+        "fields": {
+            "name": "Finance",
+            "code": "FIN"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 3,
+        "fields": {
+            "name": "Marketing",
+            "code": "MKT"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 4,
+        "fields": {
+            "name": "Healthcare",
+            "code": "HC"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 5,
+        "fields": {
+            "name": "Education",
+            "code": "EDU"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 6,
+        "fields": {
+            "name": "Manufacturing",
+            "code": "MFG"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 7,
+        "fields": {
+            "name": "Retail",
+            "code": "RTL"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 8,
+        "fields": {
+            "name": "Energy",
+            "code": "ENG"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 9,
+        "fields": {
+            "name": "Transportation",
+            "code": "TRN"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 10,
+        "fields": {
+            "name": "Hospitality",
+            "code": "HSP"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 11,
+        "fields": {
+            "name": "Construction",
+            "code": "CON"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 12,
+        "fields": {
+            "name": "Agriculture",
+            "code": "AGR"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 13,
+        "fields": {
+            "name": "Media & Entertainment",
+            "code": "M&E"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 14,
+        "fields": {
+            "name": "Telecommunications",
+            "code": "TEL"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 15,
+        "fields": {
+            "name": "Real Estate",
+            "code": "RE"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 16,
+        "fields": {
+            "name": "Legal Services",
+            "code": "LEGAL"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 17,
+        "fields": {
+            "name": "Consulting",
+            "code": "CONS"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 18,
+        "fields": {
+            "name": "Non-Profit",
+            "code": "NPO"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 19,
+        "fields": {
+            "name": "Government",
+            "code": "GOV"
+        }
+    },
+    {
+        "model": "company_industry.industry",
+        "pk": 20,
+        "fields": {
+            "name": "Aerospace & Defense",
+            "code": "A&D"
+        }
+    }
+]

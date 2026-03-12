@@ -1,0 +1,26 @@
+[
+    {
+        "model": "user_role.role",
+        "pk": 1,
+        "fields": {
+            "name": "Chercheur",
+            "code": "chercheur"
+        }
+    },
+    {
+        "model": "user_role.role",
+        "pk": 2,
+        "fields": {
+            "name": "Recruteur",
+            "code": "recruteur"
+        }
+    },
+    {
+        "model": "user_role.role",
+        "pk": 3,
+        "fields": {
+            "name": "Admin",
+            "code": "admin"
+        }
+    }
+]

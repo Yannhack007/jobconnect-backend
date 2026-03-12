@@ -1,4 +1,5 @@
 from django.db import models
+from company_industry.models import Industry
 
 # Create your models here.
 class Company(models.Model):
@@ -6,7 +7,7 @@ class Company(models.Model):
     description = models.TextField(blank=True, null=True)
     website = models.URLField(blank=True, null=True, unique=True)
     logo_url = models.URLField(blank=True, null=True, unique=True)
-    industry = models.CharField(max_length=100, blank=True, null=True)  # e.g., 'IT', 'Finance', 'Marketing'
+    industry = models.ForeignKey(Industry, on_delete=models.SET_NULL, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     
