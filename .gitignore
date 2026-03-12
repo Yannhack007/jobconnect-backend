@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+bin/
+lib/
+include/
+share/
+*.egg
+*.egg-info
+.venv/
+
+# Django-specific
+*.log
+*.pot
+*.sqlite3
+db.sqlite3
+/media/
+/static_collected/
+
+# IDE-specific (VS Code, PyCharm, etc.)
+.idea/
+.vscode/
+.history/
+
+# OS-specific
+.DS_Store
+Thumbs.db
